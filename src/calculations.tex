@@ -1,0 +1,939 @@
+\chapter{Glaze Formula Calculations}
+Glazes are expressed in several different forms:
+%-------------------------------------------------------------------------------
+\begin{itemize}
+\item Recipe: a list of actual materials and weights, used directly to make the 
+glaze.
+
+\item Molecular formula: shows the relative proportion of molecules of flux, 
+alumina and silica in the glaze. Must be converted to recipe to make the glaze.
+
+\item Chemical analysis: shows the percentage of oxides in the glaze. Also 
+known as ultimate composition.
+
+\item Seger formula: a special molecular formula, which makes it easier to 
+compare glazes. It is also known as the ``empirical formula''.
+\end{itemize}
+%-------------------------------------------------------------------------------
+\section{Glaze Formula Chemistry}
+Why glaze formulas?
+
+As you already know, glaze materials are complicated and if you only work with 
+clay, limestone, talc, quartz etc. there is no way to theoretically understand 
+how they combine in the glaze. For this reason, in order to make glazing 
+scientific and systematic, it is necessary to use chemistry. This makes it 
+possible to write materials as chemical symbols and to make calculations that 
+help to invent new glazes and to alter existing recipes.
+%-------------------------------------------------------------------------------
+\subsection{Using Chemical Symbols}
+Chemical symbols are a language for describing atoms, molecules and the way 
+they are combined to make up the various materials used in chemistry and in 
+glazes.
+
+As already described at the beginning of the book, there are more than 100 
+elements, which are the basic building blocks of glaze materials. Each one has 
+a chemical symbol:
+
+Calcium = Ca
+
+Copper = Cu
+
+Iron = Fe
+
+etc.
+%-------------------------------------------------------------------------------
+\subsection{Chemical Reactions}
+Elements are usually not found by themselves in nature. The basic nature of 
+elements is to combine with each other: this process is called a chemical 
+reaction and takes place in nature through the effects of heat, pressure etc. 
+When elements combine, they are called compounds and they can be described by 
+chemical formulas, which show the number of atoms and how they are attached to 
+each other.
+
+For example, china clay is written as \ce{Al2O3*2SiO2*2H2O}. Each element is 
+followed by a number written below the line: this is the number of atoms in the 
+compound.
+
+\ce{Al2} means 2 atoms of alumina and \ce{O3} means 3 atoms of oxygen. This is 
+the compound aluminum oxide.
+
+If no number follows the element symbol, it is understood to be only 1 atom.
+
+The raised period (·) shows that the compounds are joined together chemically 
+to form a complex compound. The large numbers before each compound mean the 
+number of molecules that combine. If there is no number in front, it is 
+understood to mean 1 molecule.
+
+\ce{Al2O3} means 1 molecule of aluminum oxide. \ce{2SiO2} means 2 molecules of 
+silicon oxide.
+
+So \ce{AL2O3*2SiO2*2H2O} is a complex compound consisting of 1 molecule of 
+aluminum oxide, 2 molecules of silicon oxide and 2 molecules of water.
+
+These compounds cannot be broken down physically but can combine with other 
+compounds when heated sufficiently in the kiln.
+%-------------------------------------------------------------------------------
+\subsection{Molecular Weights}
+Each kind of molecule has a specific weight. We all know that 1 kg of lead is 
+much smaller than 1 kg of aluminum. This is because the molecules are heavier 
+and are packed together more closely.
+
+Because it is impossible to weigh individual molecules, they have all been 
+assigned molecular weights, which are relative to hydrogen, which has been 
+given the molecular weight of 1. The molecular weights of all the other 
+elements are based on how much heavier they are compared to hydrogen.
+
+So the molecular weight of oxygen = 16, meaning it is 16 times heavier than 
+hydrogen.
+%-------------------------------------------------------------------------------
+\subsection{Formula Weight of Minerals}
+The molecular weights of all the elements in a compound can be added together 
+to get the total molecular weight. This is called the formula weight. In our 
+example of kaolin clay, we can look in the table of elements and oxides in the 
+appendix to find out the individual molecular weights. Molecular weight is 
+abbreviated to ``MW''. In order to simplify calculations we round up the MW 
+figures. This is accurate enough since we seldom know the exact composition of 
+our raw materials anyway.
+
+This is known as formula weight.
+
+As an example, table~\ref{tab:formulaweightkaolin} shows the calculation of 
+the formula weight of kaolin as 258.
+%-------------------------------------------------------------------------------
+\begin{landscape}
+\begin{center}
+    \renewcommand{\arraystretch}{1.5}
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c|c|c|c|c|}\hline
+\textbf{Element}&\textbf{Molecular Weight}&\textbf{Number of 
+Atoms}&&\textbf{Oxide Weight}&\textbf{Compound Weight}\\\hline\hline
+AL&27&2&$2*27=54$&&\\\hline
+O&16&3&$3*16=48$&102&$1*102=102$\\\hline
+Si&28&1&$1*28=28$&&\\\hline
+O&16&2&$2*16=32$&60&$2*60=120$\\\hline
+H&1&2&$2*1=2$&&\\\hline
+O&16&1&$1*16=16$&18&$2*18=36$\\\hline\hline
+&&&&\textbf{Total compound weight =}&\textbf{258}\\\hline
+  \end{tabular}
+\caption{The formula weight of kaolin calculated as 258.}
+\label{tab:formulaweightkaolin}
+\end{table}
+\end{center}
+\end{landscape}
+%-------------------------------------------------------------------------------
+\subsection{Percentage to Formula}
+Glaze formulas are often given as percentages of the various oxides. In order 
+to find out the chemical formula, the rule is to divide each oxide by its 
+molecular weight.
+
+In the appendix you will find the molecular weight of glaze oxide and materials.
+
+The table~\ref{tab:molecularformulakaolin} shows a calculation of the molecular 
+formula of kaolin. As shown in the table, the molecular formula of kaolin is:
+
+\ce{0.387Al2O3*0.775SiO2*0.775H2O}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+\begin{table}\centering
+  \begin{tabular}{|c|c|c|c|c|}\hline
+    \textbf{Oxide}&\textbf{Symbol}&\textbf{Percent}&\textbf{Molecular 
+    Weight}&\textbf{Calculation}\\\hline\hline
+    Silica&\ce{SiO2}&46.51\%&60&$46.51/60=0.775$\\\hline
+    Alumina&\ce{Al2O3}&39.53\%&102&$39.52/102=0.387$\\\hline    
+    Water&\ce{H2O}&13.96\%&18&$13.96/18=0.775$\\\hline
+      \end{tabular}
+\caption{The molecular formula of kaolin.}
+\label{tab:molecularformulakaolin}
+\end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+Because this is difficult to use, we divide all the numbers by the smallest one.
+
+$0.387/0.387 = \ce{1Al2O3}$
+
+$0.775/0.387 = \ce{2SiO2}$
+
+$0 775/0.387 = \ce{2H2O}$
+
+The formula comes out neatly as the familiar \ce{Al2O3*2SiO2*2H2O}, or kaolin.
+
+For using a material in glaze calculation we need to calculate its formula 
+weight. This is done for kaolin as shown in table~\ref{tab:formulaweightkaolin} 
+above.
+%-------------------------------------------------------------------------------
+\section{Seger Formula}
+About 100 years ago a German ceramist, Hermann Seger, developed Seger cones for 
+measuring temperatures in kilns. He also proposed writing the composition of 
+glazes according to the number of different oxides in the glaze instead of 
+listing the raw materials used in the glaze.
+
+For example: Aluminum oxide can be added to the glaze either in the form of 
+clay (\ce{Al2O3*2SiO2*2H2O}) or feldspar (\ce{K2O*Al2O3*6SiO2}).
+
+Seger formulas allow all glaze formulas to be expressed in a table, keeping the 
+groups separate in order to make comparison of different formulas easy (see 
+below).
+
+The organization of the Seger formula is always according to 
+table~\ref{tab:segerformulaorg}.
+
+In the table form, the sum of the fluxes must always equal 1, which makes 
+different formulas easy to compare.
+
+The oxides used in glazes are divided into three groups according to the way 
+the oxides work in the glaze.
+
+\textbf{Note:} \ce{B2O3} is sometimes listed under stabilizers and sometimes 
+under glass formers, since it has both characteristics.
+%-------------------------------------------------------------------------------
+\subsubsection{Fluxes}
+This group of oxides functions as melter, and fluxes are also called basic 
+oxides or bases. They are written \ce{RO} or \ce{R2O}, where R represents any 
+atom and O represents oxygen. So all the fluxes are a combination of one or two 
+element atoms and one oxygen atom.
+%-------------------------------------------------------------------------------
+\subsubsection{Stabilizers}
+These work as stiffeners in the melted glaze to prevent it from running too 
+much. They are considered neutral oxides and are writen as \ce{R2O3} or two 
+atoms of some element combined with three oxygen atoms.
+%-------------------------------------------------------------------------------
+\subsubsection{Glass formers}
+These form the noncrystalline structure of the glaze. They are called acidic 
+oxides and are written as \ce{RO2} or one element atom combined with two oxygen 
+atoms.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|}\hline
+      \textbf{Fluxes}&\textbf{Stabilizer}&\textbf{Glass Formers}\\\hline\hline
+      \textbf{\ce{RO}}, 
+      \textbf{\ce{R2O}}&\textbf{\ce{R2O3}}&\textbf{\ce{RO2}}\\\hline\hline
+      \textbf{Alkalis:}&\ce{Al2O3}&\ce{SiO2}\\\hline
+      \ce{K2O}&\ce{B2O3}&\ce{TiO2}\\\hline
+      \ce{Na2O}&\ce{B2O3}&\\\hline
+      \ce{Li2O}&&\\\hline\hline
+      \textbf{Alkaline earths:}&&\\\hline
+      \ce{CaO}&&\\\hline
+      \ce{MgO}&&\\\hline
+      \ce{BaO}&&\\\hline\hline
+      \textbf{Others:}&&\\\hline
+      \ce{PbO}&&\\\hline
+      \ce{ZnO}&&\\\hline
+    \end{tabular}
+    \caption{Organization of the Seger Formula.}
+    \label{tab:segerformulaorg}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\subsection{Table of Limit Formulas}
+Tables \ref{tab:glazelimitsearth} and \ref{tab:glazelimitsstone} shows limits 
+for glaze ingredients in earthenware and stoneware glazes, as provided by 
+Daniel Rhodes in \textit{Clay and Glazes for the Potter}.
+
+\textbf{Note:} \ce{KNaO} is a symbol for either sodium oxide or potassium oxide.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+    \multicolumn{6}{|c|}{\textbf{c012--08: Lead Glazes}}\\\hline\hline
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{PbO}&0.7--1.0&\ce{Al2O3}&0.05--0.2&\ce{SiO2}&1.0--1.5\\\hline
+    \ce{KNaO}&0--0.3&&&&\\\hline
+    \ce{ZnO}&0--0.1&&&&\\\hline
+    \ce{CaO}&0--0.2&&&&\\\hline\hline
+    \multicolumn{6}{|c|}{\textbf{c08--01: Lead Glazes}}\\\hline\hline
+\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+\ce{PbO}&0.7--1.0&\ce{Al2O3}&0.1--0.25&\ce{SiO2}&1.5--2.0\\\hline
+\ce{KNaO}&0--0.3&&&&\\\hline
+\ce{ZnO}&0--0.2&&&&\\\hline
+\ce{CaO}&0--0.3&&&&\\\hline\hline
+    \multicolumn{6}{|c|}{\textbf{c08--04: Alkaline Glazes}}\\\hline\hline
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{PbO}&0--0.5&\ce{Al2O3}&0.5--0.25&\ce{SiO2}&1.5--2.5\\\hline
+\ce{KNaO}&0.4--0.8&&&&\\\hline
+\ce{ZnO}&0--0.2&&&&\\\hline
+\ce{CaO}&0--0.3&&&&\\\hline\hline
+    \multicolumn{6}{|c|}{\textbf{c08--04: Lead-Boron Glazes}}\\\hline\hline
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{PbO}&0--0.5&\ce{Al2O3}&0.15--0.2&\ce{SiO2}&1.5--2.5\\\hline
+\ce{KNaO}&0.1--0.25&&&\ce{B2O3}&0.15--0.6\\\hline
+\ce{ZnO}&0.1--0.25&&&&\\\hline
+\ce{CaO}&0.3--0.6&&&&\\\hline
+\ce{BaO}&0--0.15&&&&\\\hline
+    \end{tabular}
+\caption{Limits for earthenware glaze ingredients.}
+\label{tab:glazelimitsearth}
+\end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+    \multicolumn{6}{|c|}{\textbf{c2--5: Lead Glazes}}\\\hline\hline    
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{PbO}&0.4--0.6&\ce{Al2O3}&0.2--0.28&\ce{SiO2}&2.0-3.0\\\hline
+\ce{KNaO}&0.1--0.25&&&\ce{B2O3}&0.15--0.6\\\hline
+\ce{ZnO}&0.1--0.25&&&&\\\hline
+\ce{CaO}&0.1--0.4&&&&\\\hline\hline
+    \multicolumn{6}{|c|}{\textbf{c2--5: Boron}}\\\hline\hline    
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{KNaO}&0.1--0.25&\ce{Al2O3}&0.2--0.28&\ce{SiO2}&2.0--3.0\\\hline
+\ce{ZnO}&0.1--0.25&&&\ce{B2O3}&0.15--0.6\\\hline
+\ce{CaO}&0.2--0.5&&&&\\\hline
+\ce{BaO}&0.1--0.25&&&&\\\hline\hline
+    \multicolumn{6}{|c|}{\textbf{c8--12: Stoneware Glazes}}\\\hline\hline    
+    \textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}&\textbf{Oxide}&\textbf{Limit}\\\hline
+    \ce{KNaO}&0.2--0.4&\ce{Al2O3}&0.3--0.5&\ce{SiO2}&3.0-5.0\\\hline
+\ce{ZnO}&0--0.3&&&{B2O3}&0.2--0.6\\\hline
+\ce{CaO}&0.4--0.7&&&&\\\hline
+\ce{BaO}&0--0.3&&&&\\\hline
+\ce{MgO}&0--0.3&&&&\\\hline
+    \end{tabular}
+\caption{Limits for stoneware glaze ingredients.}
+\label{tab:glazelimitsstone}
+\end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+For example, a simple unfritted lead glaze would look as shown in 
+table~\ref{tab:calculationsunfrittedleadrecipe}.
+%-------------------------------------------------------------------------------
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}\centering
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+ \multicolumn{2}{|c|}{\textbf{Fluxes}}
+&\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+&\multicolumn{2}{|c|}{\textbf{Glass former}}\\\hline\hline
+ \multicolumn{2}{|c|}{RO, \ce{R2O}}
+&\multicolumn{2}{|c|}{\ce{R2O3}}
+&\multicolumn{2}{|c|}{\ce{RO2}}\\\hline
+PbO&1&\ce{Al2O3}&0.1&\ce{SiO2}&1.5\\\hline
+\end{tabular}
+\caption{The Seger formula for a simple unfritted lead glaze. Remember that the 
+flux column always totals 1.0.}
+\label{tab:calculationsunfrittedleadrecipe}
+\end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+A more complicated formula is the unfritted boron glaze is shown in 
+table~\ref{tab:calculationsunfrittedboronformula}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      CaO&0.414&\ce{Al2O3}&0.322&\ce{SiO2}&2.291\\\hline
+      MgO&0.414&&&\ce{B2O3}&0.931\\\hline
+      \ce{K2O}&0.172&&&&\\\hline\hline
+      &1.000&&&&\\\hline
+    \end{tabular}
+    \caption{The Seger formula for an unfritted boron glaze.}
+    \label{tab:calculationsunfrittedboronformula}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+There are some basic rules for the ratio of oxides in the 3 different groups, 
+according to glaze temperature. These are called limit formulas. They should 
+only be considered guidelines, as many glazes exceed the limits in practice.
+%-------------------------------------------------------------------------------
+\begin{itemize}
+\item Addition of 0.1 parts \ce{SiO2} to a glaze will increase the melting 
+point by about 20\degree C.
+\item Addition of 0.05 parts \ce{B2O3} will lower the melting point by 
+20\degree C.
+\end{itemize}
+%-------------------------------------------------------------------------------
+The formulas of pyrometric Seger cones are listed in the appendix. These can 
+also be used as a guide for glazes by choosing a cone formula 4 to 5 cones 
+below the glaze firing temperature. If you need a glaze for cone 9, 1280\degree 
+C, you can use the cone 5 formula for the glaze.
+%-------------------------------------------------------------------------------
+\subsection{Benefits of Using the Seger Formula}
+The main usefulness of the Seger formula is that it presents glazes in a way 
+that is easy to compare. 
+
+The Seger formula should be considered a guide only, as most theoretical glazes 
+do not react as expected and still require empirical testing to develop them 
+fully. If you want to use Seger formulas for your glazes it is nice to have 
+exact chemical analysis of your raw materials, but this is seldom the case. 
+Instead you will have to pick one of the materials listed in the appendix. They 
+may be close enough for practical work.
+%-------------------------------------------------------------------------------
+\subsubsection{Originating new glazes}
+Glazes with desired characteristics of color, mattress etc. can first be 
+written as Seger formulas, selecting oxides that are known to produce the 
+effects.
+%-------------------------------------------------------------------------------
+\subsubsection{Comparing glaze recipes}
+It is difficult to look at two recipes and see how they are different. If they 
+are converted into Seger formulas, the differences can easily be seen.
+%-------------------------------------------------------------------------------
+\subsubsection{Substituting materials}
+If a material is no longer available, other materials can be substituted by 
+working out the quantities in the Seger formula.
+%-------------------------------------------------------------------------------
+\subsubsection{Modifying glazes}
+Glazes that change character, have problems etc. can be analyzed as Seger 
+formulas, and directions for testing decided.
+%-------------------------------------------------------------------------------
+\subsection{Glaze Recipe from Formula}
+To get the glaze recipe from the formula, there is a standard series of 
+calculations.
+\subsubsection{Example: finding the material percentages in a lead glaze}
+This example uses the simple lead glaze as shown in 
+table~\ref{tab:calculationsunfrittedleadrecipe}.
+
+First, decide which raw materials to use. For lead oxide, PbO, the choices are 
+red lead, white lead or litharge. \ce{Al2O3} is almost always obtained from 
+china clay, and \ce{SiO2} usually from quartz powder.
+
+The calculation is helped with a table like 
+table~\ref{tab:glazerecipefromformula}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|}\hline
+      \textbf{Material/Formula}&\textbf{Mols}&\textbf{Pb=1.0}&\textbf{\ce{Al2O3}=0.1}
+      &\textbf{\ce{SiO2}=1.5}\\\hline\hline
+      Litharge, PbO&1.0&1.0&-&-\\\hline
+      Kaolin, \ce{Al2O3*2SiO2*2H2O}&0.1&-&0.1&0.2\\\hline
+      Quartz, \ce{SiO2}&1.3&-&-&1.3\\\hline\hline
+      \textbf{Total}&\textbf{-}&\textbf{1.0}&\textbf{0.1}&\textbf{1.5}\\\hline
+    \end{tabular}
+    \caption{Finding the required molecular parts of each material in the 
+    simple lead glaze recipe.}
+    \label{tab:glazerecipefromformula}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+1.0 molecular parts of litharge provides all the PbO needed. We enter kaolin 
+and its formula in the table and write 0.1 for MP. When we take 0.1 part 
+kaolin, we get 0.1 \ce{Al2O3} and we enter this on the right. In the kaolin 
+formula we have \ce{2SiO2} so when we take 0.1 MP of kaolin we get 0.2 
+\ce{SiO2}. We list this under \ce{SiO2}. We need 1.5 \ce{SiO2}, so 1.3 remains 
+and we get this from quartz.
+
+Next the required molecular parts of each material are multiplied by their 
+molecular weights to get the batch weight of each material.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|}\hline
+      \textbf{Material}&\textbf{MP}&\textbf{MW}&\textbf{Calculation}
+      &\textbf{Batch Weight}\\\hline\hline
+      Litharge&1.0&223&$1*223$&223\\\hline
+      Kaolin&0.1&258&$0.1*258$&25.8\\\hline
+      Quartz&1.3&60&$1.3*60$&70.8\\\hline\hline
+      &&&\textbf{Total}&326.8\\\hline
+    \end{tabular}
+    \caption{The batch weight of the glaze shown in 
+    table~\ref{tab:glazerecipefromformula}.}
+    \label{tab:glazerecipefromformulaweights}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+To change this recipe into percentages, all the figures are divided by the 
+total, as shown in table~\ref{tab:glazerecipefromformulatotal}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|}\hline
+      \textbf{Material}&\textbf{Calculation}&\textbf{Decimal}&\textbf{Percentage}
+\\\hline\hline
+      Litharge&$223/326.8=$&0.68&68\%\\\hline
+      Kaolin&$25.8/326.8=$&0.8&8\%\\\hline
+      Quartz&$70.8/326.8=$&0.24&24\%\\\hline\hline
+      &&\textbf{Total}&100\%\\\hline
+    \end{tabular}
+    \caption{Converting molecular weights from      
+    table~\ref{tab:glazerecipefromformulaweights} into percentages.}
+    \label{tab:glazerecipefromformulatotal}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\subsubsection{Example: finding the material percentages in a boron glaze}
+%-------------------------------------------------------------------------------
+A more complicated formula is the unfritted boron glaze, as shown in 
+table~\ref{tab:calculationsunfrittedboronformula}.
+
+Again, the first step is to select materials. Because materials that supply 
+more than one oxide usually work better in glazes, they are preferred if 
+available. We need both CaO and MgO, which are supplied by dolomite, 
+\ce{CaCO3*MgCO3}. Potash feldspar supplies \ce{K2O} along with \ce{Al2O3} and 
+\ce{SiO2}. Quartz provides \ce{SiO2}. For boron, boric acid is selected.
+%-------------------------------------------------------------------------------
+The calculation procedure is as follows:
+\begin{enumerate}
+\item Enter formula at top of calculation table.
+\item Select materials, enter formula and MW.
+\item Multiply each material's MW with its MW and enter result in part's weight.
+\item Enter MP of each oxide of the material under the formula to check oxide 
+balance.
+\item Convert parts' weight into a percentage recipe.
+\end{enumerate}
+As before we change the recipe to percentage. When calculating from formula to 
+recipe, there is no need to carry out results beyond round figures, 
+particularly when we do not know the exact chemical analysis of our materials.
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|}\hline
+      \textbf{Material}&\textbf{Calculation}&\textbf{Decimal}&\textbf{Percentage}
+      \\\hline\hline
+      Dolomite&$384/76=$&19.8&20\%\\\hline
+      Potash feldspar&$384/96=$&25&25\%\\\hline
+      Kaolin&$384/39=$&10.2&10\%\\\hline
+      Quartz&$384/58=$&15.1&15\%\\\hline\hline
+      Boric acid&$384/115=$&29.9&30\%\\\hline
+      &&\textbf{Total}&100\%\\\hline
+    \end{tabular}
+    \caption{Converting molecular weights from      
+      table~\ref{tab:calculationsunfrittedboronformula} into percentages.}
+    \label{tab:glazerecipefromformulatotal}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+Calculating from a recipe to the Seger formula is the same process in reverse. 
+We will use the same raw boric acid glaze as an example. Again we use the 
+calculation table~\ref{tab:calculationsunfrittedboronformula} and the following 
+steps.
+%-------------------------------------------------------------------------------
+\begin{enumerate}
+\item Enter recipe materials and their formulas in the left column and MW and 
+recipe figures in MP's weight column.
+\item Write oxides of the materials at top of table.
+\item Divide each recipe figure with its MW and enter result under MP.
+\item Multiply MP with each oxide in material formula and enter result under 
+respective oxide in the right columns.
+\item Add together all oxides and list them according to RO-\ce{R2O3}-\ce{RO2}.
+\item Add oxides in RO and divide all RO figures with the total.
+\end{enumerate}
+%-------------------------------------------------------------------------------
+Note that from dolomite only CaO and MgO are entered in the formula. \ce{CO2} 
+is released during heating and does not take part in the glaze melt. \ce{H2O} 
+of kaolin and boric acid likewise evaporates.
+
+The oxides are set up in the standard Seger formula, as shown in 
+table~\ref{tab:calculationsboronformula2}. Then the formula is brought to unity 
+by dividing all the figures by the total in the left column, as shown in 
+table~\ref{tab:calculationsunfrittedboronformulaunity}.
+
+\textbf{Note:} The figures are not exactly the same as the original 
+formula above, due to rounding off the figures. This is accurate enough for 
+practical work.
+
+If you have a chemical analysis of materials you want to use in a glaze, you 
+first have to calculate the formula of the material. Then you enter this 
+formula and its formula weight in the table under MW.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      CaO&0.109&\ce{Al2O3}&0.84&\ce{SiO2}&0.598\\\hline
+      MgO&0.109&&&\ce{B2O3}&0.244\\\hline
+      \ce{K2O}&0.045&&&&\\\hline\hline
+      &0.263&&&&\\\hline
+    \end{tabular}
+    \caption{The Seger formula for the unfritted boron glaze from 
+    table~\ref{tab:calculationsunfrittedboronformula}.}
+    \label{tab:calculationsunfrittedboronformula2}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      CaO&0.414&\ce{Al2O3}&0.322&\ce{SiO2}&2.291\\\hline
+      MgO&0.414&&&\ce{B2O3}&0.931\\\hline
+      \ce{K2O}&0.172&&&&\\\hline\hline
+    \end{tabular}
+    \caption{The unified Seger formula for an unfritted boron glaze from 
+    table~\ref{tab:calculationsunfrittedboronformula2}.}
+    \label{tab:calculationsunfrittedboronformulaunity}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\section{Frit Calculation}
+Frit calculation is done in the same way as calculating a glaze, but the 
+calculation is slightly more complicated. As with glazes it is important to 
+follow the recipes accurately.
+
+This also means that you have to make sure that the raw materials are not wet 
+when you weigh them. Also remember that materials like calcined soda and borax 
+will absorb moisture from the air if they are not kept in a sealed container.
+%-------------------------------------------------------------------------------
+\subsection{Moisture Compensation}
+If you have to weigh materials with a high moisture content you can compensate 
+for this. Weigh 100 g of the material, dry it and then weigh it again. 
+
+Moisture content is: $((wet~weight-dry~weight)*100)/(dry~weight)=x\%$
+
+This $x\%$ is added to the amount you are weighing to compensate for its 
+moisture content. 
+
+For example: 100 g of kaolin weights 92 g after drying. This can be caluclated 
+as follows: $(100-92)*100)/92=8.7\%$.
+
+Table~\ref{tab:moisturecompensation} shows how to find the total amount of 
+kaolin actually needed for a frit, when its moisture content is 8.7%.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}[htbp!]\centering
+    \begin{tabular}{|c|c|c|}\hline
+      \multicolumn{3}{|c|}{\textbf{Kaolin moisture content: 
+      $(100-92)*100)/92=8.7\%$}}\\\hline\hline
+      Kaolin in recipe&&3500 g\\\hline
+      Compensation&$8.7\%*3500$&304.5 g\\\hline
+      Total amount of kaolin needed&$3500 + 304.5$g&3804.5 g\\\hline
+    \end{tabular}
+    \caption{Finding moisture content of kaolin, and compensating.}
+    \label{tab:moisturecompensation}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\subsection{Formula Rules for Frit}
+The practice of fritting was described in chapter~\ref{sec:frits}. The main 
+reason for fritting is to make glaze materials insoluble, which is possible if 
+the frit materials are mixed in the right proportion. In formula terms they 
+should fall within these limits:
+%-------------------------------------------------------------------------------
+\begin{itemize}
+\item Ratio flux: \ce{SiO2} should be between $1:1.5$ and $1:3$
+\item The sum of \ce{K2O} and \ce{Na2O} should not exceed 0.5 molecular parts 
+on the flux side. The other 0.5 can be filled by fluxes like PbO, CaO, ZnO, and 
+BaO.
+\item The ratio of $\ce{B2O3}:\ce{SiO2}$ should not be less than $1:2$, but 
+with other materials like PbO, CaO, MgO, or \ce{K2O} in the formula this 
+proportion can go down to $1:1.5$
+\item At least 0.05 molecular parts of \ce{Al2O3} reduces solubility, but 
+it should not exceed 0.2 molecular parts because this reduces the fluidity of 
+the frit melt.
+\end{itemize}
+%-------------------------------------------------------------------------------
+\subsection{Frit Based on Glaze Formula}
+Imagine a glaze formula of an opaque boron glaze to melt at 1100\degree C, as 
+shown in table~\ref{tab:boronglazefrit}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      \ce{K2O}&0.23&\ce{Al2O3}&0.30&\ce{SiO2}&2.6\\\hline
+      ZnO&0.27&&&\ce{B2O3}&0.8\\\hline
+      CaO&0.5&&&&\\\hline\hline
+    \end{tabular}
+    \caption{A boron glaze to melt at 1100\degree
+      C.}
+    \label{tab:boronglazefrit}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+Initially we calculate the recipe as it was done for the unfritted glaze. We 
+get the \ce{K2O} from potash feldspar. Borax cannot be used for boric oxide 
+because no \ce{Na2O} is needed in the formula and so boric acid is required. We 
+get the CaO from whiting and the rest of the materials will be kaolin, quartz 
+and zinc oxide.
+
+We now decide what material to include in the frit batch and what to include in 
+the ball milling only. This is done according to the above rules. We need to 
+include all the soluble boric acid. Along with that we can also include whiting 
+and zinc oxide and some potash feldspar but not all because its \ce{Al2O3} will 
+reduce the frit's fluidity.
+
+A frit formula could be as shown in table~\ref{tab:boronglazefritformula}
+
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      \ce{K2O}&0.1&\ce{Al2O3}&0.1&\ce{SiO2}&1.6\\\hline
+      ZnO&0.27&&&\ce{B2O3}&0.8\\\hline
+      CaO&0.5&&&&\\\hline\hline
+    \end{tabular}
+    \caption{The formula of a boron glaze to melt at 1100\degree
+      C.}
+    \label{tab:boronglazefritformula}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+One problem still remains. When the frit melts, a large amount of \ce{H2O} and 
+\ce{CO2} is lost. Thus loss does not influence the recipe if we weigh the raw 
+frit materials, melt the frit and use all the melted frit in the glaze, adding 
+the other material according to the original amount of raw frit. But it is much 
+more practical to produce a large batch of frit at a time and later weigh the 
+melted frit to produce smaller batches of glaze. We need to find out how much 
+weight is lost.
+%-------------------------------------------------------------------------------
+\subsection{Frit Loss Calculation}
+\subsubsection{Practical Loss}
+The loss can be found simply by weighing the amount of melted frit that is 
+produced from a batch of frit. 
+
+For example:
+\begin{itemize}
+\item Raw frit batch weighs in total 500 kg.
+\item After firing the (dry) frit weighs 280 kg.
+\end{itemize}
+
+$Loss~in~Percentage=(()500-280)/500)*100=44\%$
+
+\subsubsection{Theoretical loss}
+The loss can also be calculated based on the formula of the frit. On heating, 
+whiting changes to calcium oxide.
+
+\ce{CaCo3}+heat\ce{->CaO+CO2}
+Only CaO enters the melted frit and we can calculate how much this weighs.
+
+The MW of \ce{CaCo3} is 100, and that of CaO is 56: so loss is 44 parts. In 
+percentage this is 44\%.
+
+The number used to find the amount of oxide entering fusion is called the 
+conversion factor, CF. Table~\ref{tab:fritconversionfactors} lists the 
+conversion factor for the most common frit materials.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|}\hline
+      \textbf{Material}&\textbf{CF}&\textbf{\% Loss}\\\hline\hline
+      Barium carbonate&0.777&22.3\\\hline
+      Borax (crystal)&0.526&47.4\\\hline
+      Boric acid&0.563&43.7\\\hline
+      Dolomite&0.523&47.7\\\hline
+      Kaolin&0.861&13.9\\\hline
+      Lead carbonate (white)&0.863&13.7\\\hline
+      Lead oxide (red)&0.977&2.3\\\hline
+      Magnesium carbonate&0.478&52.2\\\hline
+      Pearl ash&0.682&31.8\\\hline
+      Soda ash&0.585&41.5\\\hline
+      Soda crystals&0.217&78.3\\\hline
+      Whiting&0.561&43.9\\\hline
+    \end{tabular}
+    \caption{Conversion factors for common oxides entering fusion in a frit.}
+    \label{tab:fritconversionfactors}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\subsubsection{Frit glaze example}
+We can now calculate the loss of our frit with the conversion factors, as 
+shown in table~\ref{tab:boronglazefritcf}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|}\hline
+      \textbf{Material}&\textbf{Raw}&\textbf{CF}&\textbf{Melted}\\\hline\hline
+      Potash feldspar&55.6&$=$&55.6\\\hline
+      Whiting&50.0&$*0.561=$&28.1\\\hline
+      Quartz&60.0&$=$&60.0\\\hline
+      Zinc oxide&21.9&$=$&21.9\\\hline
+      Boric acid&98.4&$*0.563=$&55.4\\\hline\hline
+      \textbf{Total}&\textbf{285.9}&&\textbf{221.0}\\\hline
+    \end{tabular}
+    \caption{Using conversion factors to determine the loss of the frit in 
+    table~\ref{tab:boronglazefritformula}.}
+    \label{tab:boronglazefritcf}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+Theoretically we get only 77.3\% melted frit from our raw frit batch. We found 
+that 286.3 parts raw frit equal 221.2 parts melted frit so finally we can 
+establish our glaze recipe based on the melted frit. The final glaze recipe is 
+shown in table~\ref{tab:boronglazefritfinal}.
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|}\hline
+      \textbf{Material}&\textbf{Weight}&\textbf{Percent}\\\hline\hline
+      Frit&221.0&69.9\%\\\hline
+      Potash feldspar&72.3&22.9\%\\\hline
+      Kaolin&18.1&5.7\%\\\hline
+      Quartz&4.8&1.5\%\\\hline
+    \end{tabular}
+    \caption{The recipe for a boron-based frit to melt at 1100\degree C, after 
+    compensating for loss.}
+    \label{tab:boronglazefritfinal}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\subsection{Glaze Recipe with Standard Frit}
+Very often a ceramics producer gets the frit from a commercial supplier or 
+wants to use only a few standard frits. Above we calculated a new frit based on 
+the glaze formula. We will now calculate a glaze recipe from formula using a 
+standard frit instead.
+
+An example standard frit formula is shown in 
+table~\ref{tab:standardfritformula}. 
+
+We will try to use the frit in the glaze 
+shown in table~\ref{tab:standardfritformulaglaze}. The calculation is done as 
+with the unfritted glaze, and shown in 
+table~\ref{tab:standardfritformulaglazeweight} First oxides are entered at the 
+top of the table and we start to select materials to satisfy them. Before 
+starting, we need to know the formula weight of the frit. In the appendix we 
+get the MW of all the oxides and these we total.
+
+The frit is entered in the calculation table like other materials with many 
+oxides. The MP is selected according to the need of B2O3 It takes 0.8 MP of 
+frit to get the needed 0.8 B2O3 and all the oxides listed in the frit formula 
+are multiplied by this number and the results entered on the right of the table.
+
+The final glaze recipe is shown in 
+table~\ref{tab:standardfritformulaglazefinal}.
+
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      \ce{K2O}&0.26&\ce{Al2O3}&0.05&\ce{SiO2}&2.5\\\hline
+      ZnO&0.13&&&\ce{B2O3}&1.0\\\hline
+      CaO&0.61&&&&\\\hline\hline
+    \end{tabular}
+    \caption{A standard frit formula.}
+    \label{tab:standardfritformula}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|c|c|}\hline
+      \multicolumn{2}{|c|}{\textbf{Fluxes}}
+      &\multicolumn{2}{|c|}{\textbf{Stabilizer}}
+      &\multicolumn{2}{|c|}{\textbf{Glass Former}}\\\hline\hline
+      \ce{K2O}&0.30&\ce{Al2O3}&0.40&\ce{SiO2}&3.5\\\hline
+      ZnO&0.20&&&\ce{B2O3}&0.8\\\hline
+      CaO&0.50&&&&\\\hline\hline
+    \end{tabular}
+    \caption{A glaze within which we want to use the standard frit formula in 
+    table~\ref{tab:standardfritformula}.}
+    \label{tab:standardfritformulaglaze}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|c|}\hline
+      \textbf{Material}&\textbf{Calculation}&\textbf{Decimal}&\textbf{Percentage}
+      \\\hline\hline
+      \ce{K20}&$0.26*94=$&24.4\\\hline
+      \ce{Na20}&$0.13*62=$&8.1\\\hline
+      \ce{CaO}&$0.61*56=$&34.2\\\hline
+      \ce{Al2O3}&$0.05*102=$&5.1\\\hline      
+      \ce{SiO2}&$2.5*60=$&150\\\hline      
+      \ce{B2O3}&$1.0*70=$&70\\\hline      
+      \textbf{Frit Molecular Weight}&\textbf{291.8}\\\hline
+      \textbf{Rounded}&&\textbf{292}\\\hline      
+    \end{tabular}
+    \caption{Converting molecular weights from      
+      table~\ref{tab:standardfritformulaglaze} into percentages.}
+    \label{tab:standardfritformulaglazeweight}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{table}\centering
+    \begin{tabular}{|c|c|c|}\hline
+      \textbf{Material}&\textbf{Weight}&\textbf{Percent}\\\hline\hline
+      Frit&233.6&61.7\%\\\hline
+      Potash feldspar&51.2&13.5\%\\\hline
+      Soda feldspar&50.3&13.3\%\\\hline
+      Kaolin&42.7&11.2\%\\\hline
+      Whiting&1&0.3\%\\\hline
+    \end{tabular}
+    \caption{The final recipe for a glaze using the standard frit shown in 
+    table~\ref{tab:standardfritformula}.}
+    \label{tab:standardfritformulaglazefinal}
+  \end{table}
+\end{center}
+%-------------------------------------------------------------------------------
+\section{Hints for Using Unknown Local Materials}
+We have already discussed above calculating local materials by guessing their 
+closest theoretical formula. This will usually give a good starting point for 
+making line blends, which then can be used to get a working glaze or frit.
+
+What do you do when you have a recipe or formula but do not know the analysis 
+of your local materials and cannot get pure ones? Usually you can create a 
+glaze using the formula or recipe as a starting point, but it is unlikely to 
+match the description in the book.
+
+The most common local materials are usually:
+%-------------------------------------------------------------------------------
+\subsection{Clays}
+Common clays can be used in most glazes instead of kaolin, since they all 
+contain \ce{Al2O3} and \ce{SiO2}. But they will have lower melting points and 
+probably change the glaze color, since they will introduce \ce{K2O}, \ce{Na2O}, 
+\ce{Fe2O3}, CaO, MgO and perhaps other fluxes. Probably the easiest way to work 
+with them is simply to substitute directly for the kaolin, fire a sample and 
+then use it as the basis for line blends to get a working glaze.
+%-------------------------------------------------------------------------------
+\subsection{Feldspars}
+There are a tremendous number of different feldspars, all of which vary in the 
+relative amounts of \ce{K2O}, \ce{Na2O}, CaO, MgO, \ce{Al2O3} and \ce{SiO2} 
+they supply. This means that directly substituting feldspars will affect the 
+melting point of the glaze, and possibly its color response. Try them out as 
+direct substitutions, and then the result can be altered using line blends. If 
+the new glaze seems underfired (dry surface), the fluxes can be increased. If 
+it seems overfired (too fluid), the clay content can be increased.
+%-------------------------------------------------------------------------------
+\subsection{\ce{CaO} Sources}
+Calcium is introduced into glazes from a large variety of raw materials: 
+calcium carbonate, whiting, limestone, marble, seashells, coral, agricultural 
+lime, etc. Usually, substituting will not make much difference, but again the 
+result can be developed using line blends of the new material.
+%-------------------------------------------------------------------------------
+\subsection{Glass Cullet}
+Glass cullet means waste glass, which can be used as the basis for cheap 
+glazes. The best glass to use is window glass, which can usually be obtained 
+free of charge or cheap from glass suppliers. Window glass consists of 
+soda-lime-silica and can be used as a frit in glazes. It melts at about 
+1100\degree C. With the addition of some flux and clay, it can be made into a 
+low temperature glaze. However, because of its high CE, it will usually craze.
+%-------------------------------------------------------------------------------
+\subsection{Unknown Materials}
+If you find new materials that are completely unknown, the easiest way to find 
+out what they do is to first fire a small sample of the material alone, to see 
+if it melts or not and what color it becomes. If it melts, it is a strong flux. 
+If it does not melt, it may still be a flux. Check the test carefully to see if 
+it has reacted with the clay body. If it develops a strong color, it will 
+probably affect the glaze colour.
+
+The material should also be tested by adding it to a known glaze recipe as a 
+line blend.
+%-------------------------------------------------------------------------------
