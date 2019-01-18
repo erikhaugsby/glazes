@@ -44,7 +44,7 @@ is publically available in a LaTeX-format tables.
 
 ---
 
-##Potential Errors, Omissions
+## Potential Errors, Omissions
 
 I have attempted to preserve the original text and formatting. 
 
