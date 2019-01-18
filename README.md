@@ -40,7 +40,7 @@ tables, and images.
 
 It is also the first time (as far as I am aware) that information in some of the 
 appendices, for example the tables of cones and their temperature equivalents, 
-is publically available in a LaTeX-format tables.
+is publically available in LaTeX-format tables.
 
 ---
 
