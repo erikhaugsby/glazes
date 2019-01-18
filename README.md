@@ -1,11 +1,12 @@
 # glazes
-Glazes - for the Self-reliant Potter
 
-The original book is entitled Glazes--for the Self-Reliant Potter, 
-published in 1993.
+A LaTeX typsetting of the book "Glazes - for the Self-reliant Potter"
+
+The original book is:
+
+Norsker, Henrik, and James Danisch. Glazes - for the Self-reliant Potter: A Publication of Deutsches Zentrum Für Entwicklungstechnologien - GATE, a Division of the Deutsche Gesellschaft Für Technische Zusammenarbeit (GTZ) GmbH. Braunschweig: Vieweg, 1993.
 
 DOI: 10.1007/978-3-663-06865-5
-
 ISBN: 9783663068655 (online) 9783528020675 (print)
 
 This document was typeset in LaTex by Erik Haugsby from the source material provided 
