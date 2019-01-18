@@ -38,7 +38,7 @@ into a single document, which is both viewable on the computer and can also be
 printed. Furthermore, it introduces clickable links/references between sections, 
 tables, and images.
 
-IT is also the first time (as far as I am aware) that information in some of the 
+It is also the first time (as far as I am aware) that information in some of the 
 appendices, for example the tables of cones and their temperature equivalents, 
 is publically available in a LaTeX-format tables.
 
