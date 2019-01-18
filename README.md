@@ -82,6 +82,10 @@ Notably, I have yet to finish creating many of the appendices and their tables.
 - [ ] 15: Metric System
 - [ ] 16: Temperature Conversion
 
+Incidentally, the appendices are also available as a PDF from Springer Nature Switzerland AG:
+
+https://link.springer.com/content/pdf/bbm%3A978-3-663-06865-5%2F1.pdf
+
 ---
 
 ## Input
