@@ -2,8 +2,6 @@
 
 A LaTeX typsetting of the book "Glazes - for the Self-reliant Potter"
 
-The original book is:
-
 Norsker, Henrik, and James Danisch. Glazes - for the Self-reliant Potter: A Publication of Deutsches Zentrum Für Entwicklungstechnologien - GATE, a Division of the Deutsche Gesellschaft Für Technische Zusammenarbeit (GTZ) GmbH. Braunschweig: Vieweg, 1993.
 
 DOI: 10.1007/978-3-663-06865-5
