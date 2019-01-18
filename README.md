@@ -1,6 +1,6 @@
 # glazes
 ---
-##This Document
+## This Document
 
 This is a LaTeX typsetting of the book *Glazes - for the Self-reliant Potter*.
 
@@ -17,7 +17,7 @@ Citation for the original book:
 
 ---
 
-##Typesetting
+## Typesetting
 
 This document was typeset in LaTex by Erik Haugsby from the source material 
 provided via the CD3WD:
@@ -28,7 +28,7 @@ I lay no claim to ownership of the content.
 
 ---
 
-##Source Materials
+## Source Materials
 
 As the source material is freely available online & the cost of a print version 
 of this text is prohibitively high, I believe this document is an important 
@@ -46,7 +46,7 @@ excluded.
 
 ---
 
-##TODO
+## TODO
 
 (18.01.2019) This typsetting is not to be considered complete. 
 
@@ -71,7 +71,7 @@ Notably, I have yet to finish creating many of the appendices and their tables.
 
 ---
 
-##Input
+## Input
 
 Should you wish to complete any of these appendices, please do so.
 
