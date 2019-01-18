@@ -1,10 +1,17 @@
 # glazes
+
 ---
+
 ## This Document
 
 This is a LaTeX typsetting of the book *Glazes - for the Self-reliant Potter*.
 
-Citation for the original book:
+This document was typeset by Erik Haugsby from the freely available source 
+material provided by the CD3WD:
+
+http://www.fastonline.org/CD3WD_40/CD3WD/APPRTECH/G17GLE/EN/B483.HTM
+
+Citation for the original print edition:
 
 >Norsker, Henrik, and James Danisch. *Glazes - for the Self-reliant Potter: A* 
 >    *Publication of Deutsches Zentrum Für Entwicklungstechnologien - GATE, a*
@@ -17,29 +24,35 @@ Citation for the original book:
 
 ---
 
-## Typesetting
+## Scope and Purpose
 
-This document was typeset in LaTex by Erik Haugsby from the source material 
-provided via the CD3WD:
+This document attempts to replicate the source material and present it in a more 
+accessible structure.
 
-http://www.fastonline.org/CD3WD_40/CD3WD/APPRTECH/G17GLE/EN/B483.HTM
-
-I lay no claim to ownership of the content.
-
----
-
-## Source Materials
-
-As the source material is freely available online & the cost of a print version 
+As the source material is freely available online and the cost of a print version 
 of this text is prohibitively high, I believe this document is an important 
 contribution to the collective knowledge of potters. 
 
-As far as I know, it is also the first time that information from some of the 
-appendices, for example the tables of cones and their temperature equivalents, 
-is publically available in a LaTeX format.
+It improves upon the HTML version of the information by consolidating all sections 
+into a single document, which is both viewable on the computer and can also be
+printed. Furthermore, it introduces clickable links/references between sections, 
+tables, and images.
 
-I have attempted to preserve the original text and formatting. Some changes to 
-formatting, especially of tables, was unavoidable due to the LaTeX typesetting.
+IT is also the first time (as far as I am aware) that information in some of the 
+appendices, for example the tables of cones and their temperature equivalents, 
+is publically available in a LaTeX-format tables.
+
+--
+
+##Potential Errors, Omissions
+
+I have attempted to preserve the original text and formatting. 
+
+Some changes to formatting, especially of tables, was unavoidable due to the 
+LaTeX typesetting.
+
+Some corrections were made to spelling and grammar.
+
 The possibility of minor or unavoidable changes in layout and formatting, as 
 well as unintentional errors in transcribing the original text, cannot be 
 excluded.
